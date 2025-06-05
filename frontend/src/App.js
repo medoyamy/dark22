@@ -390,12 +390,7 @@ const EmployeesSection = () => <EmployeesPage />;
 
 const ReportsSection = () => <ReportsPage />;
 
-const SettingsSection = () => (
-  <div className="bg-white rounded-lg shadow p-6">
-    <h2 className="text-2xl font-bold text-gray-900 mb-4">إعدادات النظام</h2>
-    <p className="text-gray-600">قريباً... سيتم إضافة إعدادات النظام</p>
-  </div>
-);
+const SettingsSection = () => <SettingsPage />;
 
 // Main App Component
 function App() {
