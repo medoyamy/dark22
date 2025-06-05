@@ -319,7 +319,7 @@ const Navigation = ({ activeSection, setActiveSection }) => {
         ))}
       </nav>
       
-      <div className="absolute bottom-4 left-4 right-4">
+      <div className="mt-auto pt-4">
         <div className="bg-gray-700 rounded-lg p-3 mb-4">
           <p className="text-sm text-gray-300">مرحباً،</p>
           <p className="font-semibold">{user?.full_name}</p>
