@@ -370,19 +370,9 @@ const MainApp = () => {
 };
 
 // Placeholder components for different sections
-const InvoicesSection = () => (
-  <div className="bg-white rounded-lg shadow p-6">
-    <h2 className="text-2xl font-bold text-gray-900 mb-4">إدارة الفواتير</h2>
-    <p className="text-gray-600">قريباً... سيتم إضافة نظام الفواتير المتكامل</p>
-  </div>
-);
+const InvoicesSection = () => <InvoicesPage />;
 
-const ProductsSection = () => (
-  <div className="bg-white rounded-lg shadow p-6">
-    <h2 className="text-2xl font-bold text-gray-900 mb-4">إدارة المنتجات</h2>
-    <p className="text-gray-600">قريباً... سيتم إضافة نظام إدارة المنتجات</p>
-  </div>
-);
+const ProductsSection = () => <ProductsPage />;
 
 const InventorySection = () => (
   <div className="bg-white rounded-lg shadow p-6">
