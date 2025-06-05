@@ -293,7 +293,7 @@ const Navigation = ({ activeSection, setActiveSection }) => {
   ];
 
   return (
-    <div className="bg-gray-800 text-white w-64 min-h-screen p-4">
+    <div className="bg-gray-800 text-white w-64 min-h-screen p-4 flex flex-col">
       <div className="flex items-center space-x-2 space-x-reverse mb-8">
         <div className="text-2xl">🍽️</div>
         <div>
@@ -302,7 +302,7 @@ const Navigation = ({ activeSection, setActiveSection }) => {
         </div>
       </div>
       
-      <nav className="space-y-2">
+      <nav className="space-y-2 flex-1">
         {menuItems.map((item) => (
           <button
             key={item.id}
