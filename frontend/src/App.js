@@ -7,6 +7,7 @@ import SuppliersPage from './components/SuppliersPage';
 import InventoryPage from './components/InventoryPage';
 import PurchasesPage from './components/PurchasesPage';
 import EmployeesPage from './components/EmployeesPage';
+import ReportsPage from './components/ReportsPage';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
