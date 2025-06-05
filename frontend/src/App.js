@@ -269,9 +269,8 @@ const Dashboard = () => {
 };
 
 // Navigation Component
-const Navigation = () => {
+const Navigation = ({ activeSection, setActiveSection }) => {
   const { user, logout } = useAuth();
-  const [activeSection, setActiveSection] = useState('dashboard');
 
   const menuItems = [
     { id: 'dashboard', name: 'لوحة التحكم', icon: '📊' },
