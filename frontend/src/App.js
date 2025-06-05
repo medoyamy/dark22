@@ -3,6 +3,8 @@ import './App.css';
 import axios from 'axios';
 import InvoicesPage from './components/InvoicesPage';
 import ProductsPage from './components/ProductsPage';
+import SuppliersPage from './components/SuppliersPage';
+import InventoryPage from './components/InventoryPage';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
