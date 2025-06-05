@@ -382,19 +382,9 @@ const InventorySection = () => <InventoryPage />;
 
 const SuppliersSection = () => <SuppliersPage />;
 
-const PurchasesSection = () => (
-  <div className="bg-white rounded-lg shadow p-6">
-    <h2 className="text-2xl font-bold text-gray-900 mb-4">إدارة المشتريات</h2>
-    <p className="text-gray-600">قريباً... سيتم إضافة نظام إدارة المشتريات</p>
-  </div>
-);
+const PurchasesSection = () => <PurchasesPage />;
 
-const EmployeesSection = () => (
-  <div className="bg-white rounded-lg shadow p-6">
-    <h2 className="text-2xl font-bold text-gray-900 mb-4">إدارة الموظفين</h2>
-    <p className="text-gray-600">قريباً... سيتم إضافة نظام إدارة الموظفين</p>
-  </div>
-);
+const EmployeesSection = () => <EmployeesPage />;
 
 const ReportsSection = () => (
   <div className="bg-white rounded-lg shadow p-6">
